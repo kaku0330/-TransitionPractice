@@ -1,0 +1,115 @@
+.block {
+	position:absolute;
+	width:30%;
+	height:17%;
+	border-radius: 360px;
+	opacity:0;
+	transition: opacity 3s;
+}
+
+.word {
+	display: flex;
+	position: absolute;
+	font-size: 48px;
+	font-weight: bold;
+	justify-content: center;
+	width: 100%;
+	top: 5%;
+	opacity:0;
+	transition: opacity 3s;
+}
+
+.pick1 {
+	left: 0%;
+}
+
+.pick2 {
+	left: 0%;
+	top: 20%;
+}
+
+.pick3 {
+	left: 0%;
+	top: 40%;
+}
+
+.pick4 {
+	left: 0%;
+	top: 60%;
+}
+
+.pick5 {
+	left: 0%;
+	top: 80%;
+}
+
+.word1 {
+	position: absolute;
+	top:5%;
+	left:35%;
+	opacity:0;
+	font-size: 36px;
+	font-weight: bold;
+	transition: opacity 3s;
+}
+.word2 {
+	position: absolute;
+	top:25%;
+	left:35%;	
+	opacity:0;
+	font-size: 36px;
+	font-weight: bold;
+	transition: opacity 3s;
+}
+.word3 {
+	position: absolute;
+	top:45%;
+	left:35%;
+	opacity:0;
+	font-size: 36px;
+	font-weight: bold;
+	transition: opacity 3s;
+}
+.word4 {
+	position: absolute;
+	top:65%;
+	left:35%;
+	opacity:0;
+	font-size: 36px;
+	font-weight: bold;
+	transition: opacity 3s;
+}
+.word5 {
+	position: absolute;
+	top:85%;
+	left:35%;
+	opacity:0;
+	font-size: 36px;
+	font-weight: bold;
+	transition: opacity 3s;
+}
+
+body,html {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin: 0;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	opacity:0;
+	transition: opacity 3s;
+}
+
+.lock {
+	display: flex;
+	position: absolute;
+	text-align: center;
+	width: 40%;
+	height: 88%;
+	top: 12%;
+	left: 30%;
+}
