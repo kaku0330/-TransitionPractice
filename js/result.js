@@ -15,7 +15,7 @@ $(document).ready(function () {
   var final = getKeyByValue(result, the_most_select);
 
   console.log(final);
-  $("#pic").attr("src", "gif/4/" + final + ".gif");
+  $("#pic").attr("src", "static/TransitionPractice/gif/4/" + final + ".gif");
 });
 
 function getKeyByValue(object, value) {

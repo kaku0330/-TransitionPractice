@@ -1,0 +1,151 @@
+.block {
+  display: flex;
+  align-items: center;
+  transition: opacity 2s;
+}
+.a1 {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 25%;
+  left: 20%;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.a2 {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 25%;
+  left: 55%;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.a3 {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 63%;
+  left: 20%;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.a4 {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 63%;
+  left: 55%;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.b1 {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+}
+
+.block1 {
+  display: flex;
+  align-items: center;
+  transition: opacity 2s;
+}
+
+.optionText {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.optionImg {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 30px 30px rgba(255, 255, 255, 0.4);
+}
+.optionImgdivC {
+  background-image: url("static/TransitionPractice/img/lanlancat_logo.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 30px 30px rgba(255, 255, 255, 0.7);
+}
+
+.optionImgdivD {
+  background-image: url("static/TransitionPractice/img/lanlancat_logo.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 30px 30px rgba(255, 255, 255, 0.7);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.passbtn {
+  width: 140px;
+  height: 40px;
+  position: absolute;
+  background-color: #2894ff;
+  margin-top: 12px;
+  font-size: 18px;
+  border-radius: 60px;
+  color: white;
+}
+
+.passbtn:hover {
+  background-color: white;
+  color: #2894ff;
+}
+
+.tittletop {
+  width: 100%;
+  padding-right: 5%;
+  text-align: center;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.word {
+  display: flex;
+  width: 70%;
+  height: 80%;
+  border-radius: 360px;
+  font-size: 3vw;
+  align-items: center;
+  text-align: center;
+  background-color: yellow;
+  margin-left: 10%;
+}
+
+.inword {
+  padding-top: 35%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 5vmin;
+  font-weight: bold;
+}
